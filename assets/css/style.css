@@ -1,0 +1,593 @@
+h1 {
+	color: white;
+	font-family: 'George', Times, 'Times New Roman', serif;
+	font-size: 30px;
+}
+
+h2 {
+	color:#4aaaa5;
+	font-family: 'George', Times, 'Times New Roman', serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	color:#4aaaa5;
+	font-family: 'George', Times, 'Times New Roman', serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	
+}
+
+header {
+	background-color: #ffffff;
+}
+
+.headername {
+	float: left;
+	position: absolute;
+	background-color:#4aaaa5;
+	width: 160px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	margin: 140px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.headerlinks {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 1000px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.portfolio {
+	position: relative;
+	float: left;
+	width: 750px;
+	margin-top: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 140px;
+	background-color: #ffffff;
+	padding: 20px;	
+}
+
+.portfolio2 {
+	position: relative;
+	background-color:#4aaaa5;
+	width: 225px;
+	padding-top: 20px;
+	padding-right: 35px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	margin-top: -60px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.aboutme {
+	position: relative;
+	float: left;
+	width: 750px;
+	margin-top: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 140px;
+	background-color: #ffffff;
+	padding: 20px;
+
+}
+
+.bodytxt {
+	line-height: 200%;
+}
+
+.contactme {
+	position: relative;
+	float: left;
+	width: 750px;
+	margin-top: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 140px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+.headerall {
+	background-color: #ffffff;
+	height: 230px;
+}
+
+.sidelinks {
+	position: absolute;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 30px;
+	margin-left: 1000px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+.portpic {
+	padding: 20px 15px 20px 15px;
+	float: left;
+
+}
+
+#picme {
+	float: left;
+	padding-right: 20px;
+}
+
+#wrapper {
+	background-color: blue;
+}
+
+.footercopyright {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #666666;
+	height: 70px;
+	padding-top: 30px;
+	margin-top: 10px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.footerwrapper {
+	background-color:#4aaaa5;
+	height: 10px;
+	margin-top:1190px;
+}
+@media screen and (max-width: 980px) and (min-width: 769px) {
+	.headername {
+		float: left;
+		position: absolute;
+		background-color:#4aaaa5;
+		width: 160px;
+		padding-top: 30px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+		padding-left: 40px;
+		margin: 140px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+	}
+
+	.headerlinks {
+		position: absolute;
+		margin-top: 170px;
+		margin-left: 650px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.portfolio {
+		position: relative;
+		float: left;
+		width: 450px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 140px;
+		background-color: #ffffff;
+		padding: 20px;	
+	}
+
+	.portfolio2 {
+		position: relative;
+		background-color:#4aaaa5;
+		width: 225px;
+		padding-top: 20px;
+		padding-right: 35px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		margin-top: -60px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+	}
+
+
+	.aboutme {
+		position: relative;
+		float: left;
+		width: 450px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 140px;
+		background-color: #ffffff;
+		padding: 20px;
+
+	}
+
+	.bodytxt {
+		line-height: 200%;
+	}
+
+	.contactme {
+		position: relative;
+		float: left;
+		width: 450px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 140px;
+		background-color: #ffffff;
+		padding: 20px;
+	}
+
+	.headerall {
+		background-color: #ffffff;
+		height: 230px;
+	}
+
+	.sidelinks {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 30px;
+		margin-left: 650px;
+		background-color: #ffffff;
+		padding: 20px;
+	}
+
+	.sidelinks2 {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 30px;
+		margin-left: 650px;
+		background-color: #ffffff;
+		padding: 20px;
+	}
+
+	.sidelinks3 {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 30px;
+		margin-left: 650px;
+		background-color: #ffffff;
+		padding: 20px;
+	}
+
+	.portpic {
+		padding: 20px 15px 20px 15px;
+		float: left;
+
+	}
+
+	#picme {
+
+		padding-right: 20px;
+	}
+	.footercopyright {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		background-color: #666666;
+		height: 70px;
+		padding-top: 30px;
+		margin-top: 10px;
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+	}
+
+	.footerwrapper {
+		background-color:#4aaaa5;
+		height: 10px;
+		margin-top:1400px;
+	}
+
+	.footerwrapper2 {
+		background-color:#4aaaa5;
+		height: 10px;
+		margin-top:1400px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+	.headername {
+		float: left;
+		position: absolute;
+		background-color:#4aaaa5;
+		width: 160px;
+		padding-top: 30px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+		padding-left: 40px;
+		margin: 10px;
+		margin-top: 145px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+	}
+
+	.headerlinks {
+		position: absolute;
+		margin-top: 170px;
+		margin-left: 400px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.portfolio {
+		position: relative;
+		float: left;
+		width: 750px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;	
+	}
+
+	.portfolio2 {
+		position: relative;
+		background-color:#4aaaa5;
+		width: 225px;
+		padding-top: 20px;
+		padding-right: 35px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		margin-top: -60px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+	}
+
+
+	.aboutme {
+		position: relative;
+		float: left;
+		width: 700px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+
+	}
+
+	.bodytxt {
+		line-height: 200%;
+	}
+
+	.contactme {
+		position: relative;
+		width: 700px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+	}
+
+	.headerall {
+		background-color: #ffffff;
+		height: 230px;
+	}
+
+	.sidelinks {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 900px;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		width: 700px;
+	}
+
+	.sidelinks2 {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 500px;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		width: 700px;
+	}
+
+	.sidelinks3 {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 940px;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		width: 700px;
+	}
+
+	.portpic {
+		padding: 20px 15px 20px 15px;
+		float: left;
+
+	}
+
+	#picme {
+		float: left;
+		padding-right: 20px;
+	}
+	.footercopyright {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		background-color: #666666;
+		height: 70px;
+		padding-top: 30px;
+		margin-top: 10px;
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+	}
+
+	.footerwrapper {
+		background-color:#4aaaa5;
+		height: 10px;
+		margin-top:1190px;
+	}
+
+	.footerwrapper2 {
+		background-color:#4aaaa5;
+		height: 10px;
+		margin-top:1190px;
+	}	
+}
+
+@media screen and (max-width: 640px) {
+	.headername {
+		background-color:#4aaaa5;
+		width: 100%;
+		height: 45px;
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-left: 0px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		text-align: center;
+
+	}
+
+	.headerlinks {
+		position: absolute;
+		margin-top: 200px;
+		margin-left: 200px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.portfolio {
+		position: relative;
+		float: left;
+		width: 100%;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		text-align: center;	
+	}
+
+	.portfolio2 {
+		position: relative;
+		background-color:#4aaaa5;
+		width: 225px;
+		padding-top: 20px;
+		padding-right: 35px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+
+		margin-top: -60px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+	}
+
+
+	.aboutme {
+		position: relative;
+		float: left;
+		width: 550px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 25px;
+		background-color: #ffffff;
+		padding: 20px;
+
+	}
+
+	.bodytxt {
+		line-height: 200%;
+	}
+
+	.contactme {
+		position: relative;
+		float: left;
+		width: 750px;
+		margin-top: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+	}
+
+	.headerall {
+		background-color: #ffffff;
+		margin-left: 10px;
+	}
+
+	.sidelinks {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 1200px;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		width: 700px;
+	}
+
+	.sidelinks2 {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 500px;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		width: 700px;
+	}
+
+	.sidelinks3 {
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 1450px;
+		margin-left: 10px;
+		background-color: #ffffff;
+		padding: 20px;
+		width: 700px;
+	}
+
+	.portpic {
+		padding: 20px 15px 20px 15px;
+		float: left;
+
+	}
+
+	#picme {
+		float: left;
+		padding-right: 20px;
+		width: 550px;
+	}
+	.footercopyright {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		background-color: #666666;
+		height: 70px;
+		padding-top: 30px;
+		margin-top: 10px;
+		width: 100%;
+		position: absolute;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+	}
+
+	.footerwrapper {
+		background-color:#4aaaa5;
+		height: 10px;
+		margin-top:1650px;
+	}
+
+	.footerwrapper2 {
+		background-color:#4aaaa5;
+		height: 10px;
+		margin-top:1450px;
+	}
+}
+
